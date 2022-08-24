@@ -1,0 +1,211 @@
+.cart-table {
+    padding: 40px 34px 0;
+    background: #f0f0f0;
+    border-radius: 27px;
+    overflow: hidden;
+    font-family: 'Josefin Sans', sans-serif;;
+}
+.cart-table h3 {
+    font-weight: 700;
+    margin-bottom: 37px;
+    font-size: 20px;
+}
+.cart-table table {
+    width: 100%;
+    min-width: 442px;
+    margin-bottom: 17px;
+}
+table {
+    border-collapse: collapse;
+}
+.cart-table table tr th.product-th {
+    text-align: left;
+}
+.cart-table table tr th {
+    font-size: 16px;
+    font-weight: 700;
+    color: #414141;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.cart-table table tr th.quy-th {
+    padding-right: 20px;
+    margin-right: 20px;
+}
+.cart-table table tr th.size-th {
+    
+}
+.cart-table .product-col {
+    display: table;
+    margin-bottom: 19px;
+}
+.cart-table .product-col img {
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+    width: 73px;
+}
+.cart-table .product-col .pc-title {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 30px;
+}
+.cart-table .product-col .pc-title h4 {
+    font-size: 16px;
+    color: #414141;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+.cart-table .product-col .pc-title p {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #414141;
+}
+.cart-table .quy-col {
+    padding-right: 20px;
+}
+.cart-table .quantity {
+    margin-bottom: 0;
+    justify-content: center;
+    margin-left: 60px;
+    
+}
+.cart-table .quantity .pro-qty {
+    width: 80px;
+    background: #fff;
+    border-color: #fff;
+}
+.quantity .pro-qty {
+    width: 94px;
+    height: 36px;
+    border: 1px solid #ddd;
+    padding: 0 15px;
+    border-radius: 40px;
+    float: left;
+}
+.cart-table .quantity .pro-qty .qtybtn {
+    width: 10px;
+}
+.quantity .pro-qty .qtybtn {
+    width: 15px;
+    display: block;
+    float: left;
+    line-height: 36px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    color: #404040;
+}
+.quantity .pro-qty input {
+    width: 28px;
+    float: left;
+    border: none;
+    height: 36px;
+    line-height: 40px;
+    padding: 0;
+    font-size: 14px;
+    text-align: center;
+    background-color: transparent;
+}
+.cart-table .quantity .pro-qty .qtybtn {
+    width: 10px;
+}
+.cart-table .size-col h4, .cart-table .total-col h4 {
+    font-size: 18px;
+    color: #414141;
+    font-weight: 400;
+}
+.remove-icon {
+    margin-left: 20px;
+}
+tbody{
+    margin-top: 20px;
+}
+.cart-table .total-cost {
+    background: #f51167;
+    margin: 0 -34px;
+    text-align: right;
+    padding: 22px 0;
+    padding-right: 100px;
+}
+.cart-table .total-cost h6 {
+    line-height: 1;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+.cart-table .total-cost h6 span {
+    margin-left: 38px;
+}
+.promo-code-form {
+    position: relative;
+    margin-bottom: 14px;
+}
+.promo-code-form input {
+    width: 100%;
+    height: 58px;
+    border: 2px solid #f0f0f0;
+    padding-left: 24px;
+    padding-right: 100px;
+    font-size: 16px;
+    border-radius: 80px;
+}
+.promo-code-form button {
+    position: absolute;
+    right: 24px;
+    top: 0;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f51167;
+    cursor: pointer;
+}
+.card {
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+
+
+
+
+
+ .site-btn {
+    margin-bottom: 14px;
+    width: 100%;
+    min-height: 57px;
+    padding: 23px 47px 14px;
+}
+.site-btn {
+    display: inline-block;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    min-width: 167px;
+    padding: 18px 47px 14px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background: #f51167;
+    color: #fff;
+    line-height: normal;
+    cursor: pointer;
+    text-align: center;
+}
+.site-btn.sb-dark {
+    background: #413a3a;
+}

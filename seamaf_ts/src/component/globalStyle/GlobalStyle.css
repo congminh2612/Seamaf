@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+.link{
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 50px;
+    line-height: 1;
+    padding: 13px 0;
+    position: relative;
+    margin-left: 0;
+}
+.link:hover{
+    color: #dc3545;
+}
